@@ -54,9 +54,3 @@ python main.py
 3. The unsupervised learning agent runs, assigning a `Student_profile` to each student.
 4. The visualization module generates plots based on the cleaned and clustered data.
 5. The supervised learning model scales the data, splits it into training and testing sets, trains a Linear Regression model, and finally prints a preview of the actual vs. predicted final scores.
-
-## Future Improvements
-- **Model Evaluation Metrics**: Expose the R² Score and RMSE metrics to standard output or a logging file.
-- **Experiment Tracking**: Introduce MLflow or Weights & Biases to track model experiments.
-- **Advanced Algorithms**: Expand supervised learning to include Random Forests or Gradient Boosting for potentially higher accuracy.
-- **Refactoring**: Correct typographical errors in class names (e.g., `soopervised_model` to `SupervisedModel`) to align with PEP 8 standards.
